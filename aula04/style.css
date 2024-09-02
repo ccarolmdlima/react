@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poly:ital@0;1&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #e2ded5;
     color: #5c4739;
-    margin: 0;
-    padding: 0;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     background-color: #5c4739;
     gap: 30px;
@@ -30,54 +33,56 @@ a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 100%;
+    padding: 90%;
 }
 
 .imagem-1{
-    width: 50px;
+    width: 3%;
     height: auto;
 }
 
 
 .imagem-2 {
-    width: 400px;
-    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 55%;
     border-radius: 5%;
     border: 10px solid #5c4739;
+    margin: 5%;
 }
 
 .inicio {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    padding: 50px;
-    margin: 10px;
+    height: 100vh;
+    max-width: 100vw;
 }
 
-.texto {
-    padding: 30px;
-}
-
-h1 {
+.inicio h1{
     font-family: "Poly", serif;
-    font-size: 100px;
+    font-size: 700%;
     font-weight: 400;
-    line-height: 0.5;
+
 }
 
-h2 {
+.inicio h2 {
     font-family: "Poly", serif;
-    font-size: 80px;
+    font-size: 600%;
     font-weight: 400;
-    line-height: 0.5;
+
 }
 
-p {
+.inicio p {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 200%;
     font-weight: 400;
-    line-height: 1.5;
+
 }
 
 footer {
@@ -85,8 +90,7 @@ footer {
     font-size: smaller;
     font-weight: 500;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    margin: 10px;
+    flex-direction: row;
+    justify-content: start;
+    margin: 1%;
 }
