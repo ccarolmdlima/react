@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poly:ital@0;1&display=swap');
+
+body {
+    background-color: #e2ded5;
+    color: #5c4739;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #5c4739;
+    gap: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.imagem-1{
+    width: 50px;
+    height: auto;
+}
+
+.line-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.imagem-2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.nutcracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+
+.nutcracker-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.youngsepherdess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.youngshepherdess-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.witchboutique {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+}
+
+.witchboutique-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.line-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-5 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.icecream {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+
+.icecream-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-6 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.sweetcanneles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.sweetcanneles-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-7 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.blackcurrant {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+}
+
+.blackcurrant-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.line-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.imagem-8 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.erosfable {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+
+.erosfable-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-9 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.paradiselost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.paradiselost-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.imagem-10 {
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    border: 2px solid #5c4739;
+}
+
+.chantinganthem {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+}
+
+.chantinganthem-info {
+    padding: 15px;
+    line-height: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    margin: 10px;
+}
