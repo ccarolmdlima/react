@@ -1,30 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poly:ital@0;1&display=swap');
 
-body {
-    background-color: #e2ded5;
-    color: #5c4739;
+* {
     margin: 0;
     padding: 0;
-    max-height: 100vh;
-    max-width: 100vw;
+    box-sizing: border-box;
 }
 
 nav {
+    background-color: #5c4739;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #5c4739;
-    gap: 30px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 a {
@@ -36,16 +32,24 @@ a {
 }
 
 .imagem-1{
-    width: 3%;
-    height: auto;
+    width: 8%;
 }
 
-.line-1 {
+body {
+    background-color: #e2ded5;
+    color: #5c4739;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.produtos {
+    flex: 1;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .imagem-2 {
@@ -53,6 +57,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .nutcracker {
@@ -65,7 +70,6 @@ a {
 
 .nutcracker-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -75,6 +79,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .youngsepherdess {
@@ -87,7 +92,6 @@ a {
 
 .youngshepherdess-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -97,6 +101,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .witchboutique {
@@ -109,16 +114,8 @@ a {
 
 .witchboutique-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
-}
-
-.line-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .imagem-5 {
@@ -126,6 +123,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .icecream {
@@ -138,7 +136,6 @@ a {
 
 .icecream-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -148,6 +145,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .sweetcanneles {
@@ -160,7 +158,6 @@ a {
 
 .sweetcanneles-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -170,6 +167,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .blackcurrant {
@@ -182,16 +180,8 @@ a {
 
 .blackcurrant-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
-}
-
-.line-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
 }
 
 .imagem-8 {
@@ -199,6 +189,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .erosfable {
@@ -211,7 +202,6 @@ a {
 
 .erosfable-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -221,6 +211,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .paradiselost {
@@ -233,7 +224,6 @@ a {
 
 .paradiselost-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
 }
@@ -243,6 +233,7 @@ a {
     height: 120px;
     border-radius: 5%;
     border: 2px solid #5c4739;
+    margin: 0 auto;
 }
 
 .chantinganthem {
@@ -255,20 +246,234 @@ a {
 
 .chantinganthem-info {
     padding: 15px;
-    line-height: 0.5;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+    ul {
+        gap: 40px;
+    }
+
+    a {
+        font-size: 190%;
+    }
+
+    .produtos {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .imagem-2 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .nutcracker-info {
+        font-size: 35px;
+    }
+    
+    .imagem-3 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .youngshepherdess-info {
+        font-size: 35px;
+    }
+    
+    .imagem-4 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .witchboutique-info {
+        font-size: 35px;
+    }
+    
+    .imagem-5 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .icecream-info {
+        font-size: 35px;
+    }
+    
+    .imagem-6 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .sweetcanneles-info {
+        font-size: 35px;
+    }
+    
+    .imagem-7 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .blackcurrant-info {
+        font-size: 35px;
+    }
+    
+    .imagem-8 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .erosfable-info {
+        font-size: 35px;
+    }
+    
+    .imagem-9 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .paradiselost-info {
+        font-size: 35px;
+    }
+    
+    .imagem-10 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .chantinganthem-info {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    ul {
+        gap: 20px;
+    }
+    
+    a {
+        font-size: 100%;
+    }
+    
+    .imagem-1{
+        width: 3%;
+        height: auto;
+    }
+    
+    .produtos {
+        flex: 1;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .line-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        
+    }
+    
+    .imagem-2 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .nutcracker-info {
+        font-size: 15px;
+    }
+    
+    .imagem-3 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .youngshepherdess-info {
+        font-size: 15px;
+    }
+    
+    .imagem-4 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .witchboutique-info {
+        font-size: 15px;
+    }
+    
+    .line-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .imagem-5 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .icecream-info {
+        font-size: 15px;
+    }
+    
+    .imagem-6 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .sweetcanneles-info {
+        font-size: 15px;
+    }
+    
+    .imagem-7 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .blackcurrant-info {
+        font-size: 15px;
+    }
+    
+    .line-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+    
+    .imagem-8 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .erosfable-info {
+        font-size: 15px;
+    }
+    
+    .imagem-9 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .paradiselost-info {
+        font-size: 15px;
+    }
+    
+    .imagem-10 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .chantinganthem-info {
+        font-size: 15px;
+    }
 }
 
 footer {
     font-family: "Montserrat", sans-serif;
     font-size: smaller;
     font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    margin: 10px;
-    position: fixed;
-    bottom: 0;
+    margin-top: auto;
 }

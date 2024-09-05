@@ -164,7 +164,7 @@ p {
 
 footer {
     font-family: "Montserrat", sans-serif;
-    font-size: 55%;
+    font-size: smaller;
     font-weight: 500;
     margin-top: auto;
 }
